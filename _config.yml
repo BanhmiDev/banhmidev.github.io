@@ -1,0 +1,76 @@
+# Site settings
+title: BanhmiDev
+description: >-
+  Hi, my name is Son Nguyen and I'm a software developer based in Germany.
+lang: en-US # default lang
+timezone: Europe/Berlin
+mode: dark
+
+# Profile settings
+author:
+  name: Son Nguyen
+  bio: >
+    Hi 👋, my name is Son Nguyen and I'm a software developer based in Germany.<br/><br/>
+    I am currently leading <a href="https://partner.lieferbuddy.de" rel="noopener">Lieferbuddy</a> - offering a variety of tools such as E-Commerce-, Booking- and Point-of-Sale-Systems for all types of businesses.<br/><br/>
+    You can read more about me on the <a href="/about">about</a> page.
+  username: BanhmiDev
+  twitter: BanhmiDev
+  avatar: /assets/img/avatar.png
+
+# URL settings
+url: "https://banhmi.dev"
+baseurl:
+permalink: /:title/
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
