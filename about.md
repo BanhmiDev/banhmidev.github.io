@@ -6,8 +6,6 @@ layout: page
 
 Hi 👋, my name is Son Nguyen and I'm a software developer based in Germany.
 
-I am currently leading <a href="https://partner.lieferbuddy.de" rel="noopener">Lieferbuddy</a> - offering a variety of tools such as E-Commerce-, Booking- and Point-of-Sale-Systems for all types of businesses.
-
 Besides the boring stuff, I've been dabbling into game development and hope to be able to publish my first game on multiple platforms soon!
 
 **Contacts ✨**
