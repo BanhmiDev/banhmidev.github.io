@@ -70,6 +70,11 @@ img {
   font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
 }
 
+#menu-trigger-label {
+  position: absolute;
+  right: 0;
+}
+
 // Import sass files
 @import "meme/fonts", "meme/base", "meme/layout", "meme/post",
   "meme/miscellaneous", "meme/syntax", "meme/dark";

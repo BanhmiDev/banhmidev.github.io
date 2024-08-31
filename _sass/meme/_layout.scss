@@ -3,10 +3,10 @@
   color:rgb(94, 175, 212) !important;
   text-decoration: none !important;
   font-size: 1rem;
-  
   @include media-query($on-mobile) {
-    display: none;
+    
   }
+
 }
 
 // Navbar
@@ -28,6 +28,12 @@
   user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
+    
+  @include media-query($on-mobile) {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+  }
 
   a#mode {
     float: left;
@@ -135,7 +141,6 @@
 
     .menu-icon {
       display: block;
-      position: absolute;
       right: 0;
       width: 50px;
       height: 23px;
