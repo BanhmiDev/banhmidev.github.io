@@ -203,6 +203,11 @@
     font-weight: $bold-weight;
     padding-bottom: 10px;
 
+    width: 50%;
+    padding-top: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+
     .post-title {
       color: $black;
     }
@@ -221,11 +226,6 @@
       color: $gray;
       margin-bottom: 3px;
     }
-
-    width: 50%;
-    padding-top: 10px;
-    text-decoration: none;
-    box-sizing: border-box;
 
     &:nth-child(odd) {
       padding-left: 0;
@@ -257,5 +257,5 @@
 }
 
 .post-updated-at {
-  font-family: "Ubuntu mono", "monospace";
+  font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
 }

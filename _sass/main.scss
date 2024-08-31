@@ -1,7 +1,7 @@
 // Fonts preferences
-$sans-family: Silka, sans-serif;
-$mono-family: Consolas, monospace;
-$base-font-size: 16px;
+$sans-family: Ark-Pixel-12-proportional-zh_cn, Silka, sans-serif;
+$mono-family: Ark-Pixel-12-proportional-zh_cn, Consolas, monospace;
+$base-font-size: 18px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.85;
@@ -28,7 +28,7 @@ $dark-text-base-color: rgb(206, 208, 210);
 $dark-text-link-blue: #ff5277;
 $dark-text-link-blue-active: #ff2957;
 
-$dark-black: #1d1d1d;
+$dark-black: #000;
 $dark-white: #eaeaea;
 $dark-light: #1b1d25;
 $dark-smoke: #4a4d56;
@@ -56,6 +56,18 @@ $on-widescreen: 1152px;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+img {
+  image-rendering: pixelated;
+}
+
+.footer {
+  margin-top: 8rem;
+}
+
+#search-input, #search-input::placeholder {
+  font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
 }
 
 // Import sass files

@@ -1,6 +1,6 @@
 .menu-start {
   font-weight: bold;
-  color:rgb(85, 113, 190) !important;
+  color:rgb(94, 175, 212) !important;
   text-decoration: none !important;
   font-size: 1rem;
   
@@ -17,7 +17,6 @@
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  border-bottom: 1px solid $light;
   /*padding: $spacing-full - 15px $spacing-full;*/
   @extend %clearfix;
 }
@@ -203,7 +202,7 @@
 }
 
 .twitter {
-  color: rgb(29, 161, 242) !important;
+  color:rgb(94, 175, 212) !important;
   text-decoration-color: rgb(29, 161, 242) !important;
 }
 
@@ -243,9 +242,8 @@
   }
 
   .author-avatar {
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
+    width: 128px;
+    height: 128px;
     user-select: none;
     background-color: $black;
     -ms-user-select: none;
