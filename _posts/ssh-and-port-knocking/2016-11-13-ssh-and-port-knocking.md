@@ -22,7 +22,7 @@ $ rpm -ivh knock-server-0.5-7.el6.nux.i686.rpm
 
 ## Configuration
 
-The configuration file can be found under {% highlight bash %}/etc/knockd.conf{% endhighlight %}.
+The configuration file can be found under {% highlight bash %}/etc/knockd.conf{% endhighlight %}
 
 {% highlight bash %}
 [options]
@@ -60,7 +60,7 @@ $ telnet example.com 7000
 $ telnet example.com 8000
 {% endhighlight %}
 
-The knockd log file, located under <code>/var/log/knockd.log</code>, should print out something like this:
+The knockd log file, located under {% highlight bash %}/var/log/knockd.log{% endhighlight %} and should print out something like this:
 
 {% highlight bash %}
 [2016-11-12 16:11] <CLIENT_IP>: openSSH: Stage 1
