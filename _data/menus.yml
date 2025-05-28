@@ -2,6 +2,10 @@
   url: /projects/
   external: false
 
+- title: photography
+  url: /photography/
+  external: false
+
 - title: blog
   url: /archive/
   external: false

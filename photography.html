@@ -1,0 +1,35 @@
+---
+title: Photography
+permalink: /photography/
+layout: page
+---
+
+<script src="/assets/js/scripts.js"></script>
+
+<div class="gallery">
+  <div class="gallery-grid">
+    {%- for photo in site.data.photos -%}
+      <div class="gallery-item">
+        <img src="{{ photo.image }}" alt="{{ photo.description }}" />
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+<style>
+  .gallery {
+    padding: 0px;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 25px;
+  }
+  .gallery-item {
+    text-align: center;
+  }
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
