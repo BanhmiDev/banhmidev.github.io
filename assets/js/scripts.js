@@ -17,12 +17,16 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
         document.body.appendChild(lightbox);
 
-        lightbox.querySelector('.close').addEventListener('click', function() {
-            document.body.removeChild(lightbox);
-        });
+        // Prevent body scroll
+        document.body.style.overflow = 'hidden';
 
-        lightbox.addEventListener('click', function() {
+        function closeLightbox() {
             document.body.removeChild(lightbox);
-        });
+            // Restore body scroll
+            document.body.style.overflow = '';
+        }
+
+        lightbox.querySelector('.close').addEventListener('click', closeLightbox);
+        lightbox.addEventListener('click', closeLightbox);
     }
 });
