@@ -12,7 +12,8 @@ author:
   bio: >
     Hi, my name is Son Nguyen and I'm a software developer based in Germany.<br/><br/>
     Besides the boring stuff, I've been dabbling in game development and hope to be able to publish my first game soon.<br/><br/>
-    Last but not least, <a href="/photography">some photography stuff</a>.<br/>
+
+    For security matters, you can find my Public GPG Key <a href="/assets/banhmidev.asc">here</a>.
   username: BanhmiDev
   twitter: BanhmiDev
   avatar: /assets/img/avatar.png
