@@ -5,6 +5,10 @@
   -ms-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   -o-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   transition: background-color 75ms ease-in, border-color 75ms ease-in;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 .notransition {
@@ -50,7 +54,9 @@ body {
   background-color: $white;
   font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
