@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Perfect Sorting Algorithm"
-date:   2011-12-02 09:29:20 +0300
+date:   2011-03-01 10:00:00 +0300
 categories: blog
 tags: algorithm programming
 usemathjax: true
