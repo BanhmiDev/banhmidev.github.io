@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "All Posts"
+    url: /blog
+  - title: "Blog Tags"
+    url: /tags/
+  - title: "Photography"
+    url: /photography/
+  - title: "Projects"
+    url: /projects/
+  - title: "Games"
+    url: /games/
