@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "All Posts"
+  - title: "All"
     url: /blog
-  - title: "Blog Tags"
+  - title: "Tags"
     url: /tags/
   - title: "Photography"
     url: /photography/
