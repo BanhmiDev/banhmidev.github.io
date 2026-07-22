@@ -116,8 +116,8 @@ analytics:
 # Site Author
 author:
   name             : "Son Nguyen"
-  avatar           : "/assets/avatar.png"
-  bio              : "A Programmer. Lately also interested in game development."
+  avatar           : "/assets/avatar.jpg"
+  bio              : "Software Engineer. Lately also interested in game development."
   location         : 
   email            :
   links:
@@ -155,7 +155,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BanhmiDev"
-  since: "2025"
+  since: "2026"
 
 
 # Reading Files
