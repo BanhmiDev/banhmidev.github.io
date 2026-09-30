@@ -5,16 +5,16 @@
 main:
   - title: "Photography"
     url: /photography/
-    order: 3
+    order: 1
   - title: "Games"
     url: /games/
-    order: 5
-  - title: "All"
+    order: 3
+  - title: "Blog"
     url: /blog
-    order: 1
+    order: 4
   - title: "Tags"
     url: /tags/
-    order: 2
+    order: 5
   - title: "Projects"
     url: /projects/
-    order: 4
+    order: 2
