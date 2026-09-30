@@ -1,12 +1,20 @@
 # main links
+# The greedy nav collapses links into the hamburger from the end of this list,
+# so the links that should stay visible on phones come first; `order` restores
+# the display order on wider screens.
 main:
-  - title: "All"
-    url: /blog
-  - title: "Tags"
-    url: /tags/
   - title: "Photography"
     url: /photography/
-  - title: "Projects"
-    url: /projects/
+    order: 3
   - title: "Games"
     url: /games/
+    order: 5
+  - title: "All"
+    url: /blog
+    order: 1
+  - title: "Tags"
+    url: /tags/
+    order: 2
+  - title: "Projects"
+    url: /projects/
+    order: 4
